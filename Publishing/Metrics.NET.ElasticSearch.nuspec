@@ -13,7 +13,7 @@
         <description>This library extends Metrics.NET with ElasticSearch reporting capabilities</description>
         <summary>Metrics.NET ElasticSearch reporter</summary>
         <copyright>Iulian Margarintescu, The Recognos Metrics.NET Team</copyright>
-        <tags>elastic search, elastic, metrics, measurements, charts, timer, histogram, duration, graphite, health checks</tags>
+        <tags>elastic search, elastic, metrics, measurements, charts, timer, histogram, duration, health checks</tags>
         <dependencies>
           <dependency id="Metrics.NET" version="0.4.8-pre" />
         </dependencies>
