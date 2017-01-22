@@ -1,16 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net;
+using System.Runtime.Serialization.Json;
+using System.Text;
 using Metrics.Json;
+using Metrics.Logging;
 using Metrics.MetricData;
 using Metrics.Reporters;
 using Metrics.Utils;
-using System.Threading.Tasks;
-using Metrics.Logging;
-using System.Runtime.Serialization.Json;
-using System.IO;
-using System.Text;
 
 namespace Metrics.ElasticSearch
 {
