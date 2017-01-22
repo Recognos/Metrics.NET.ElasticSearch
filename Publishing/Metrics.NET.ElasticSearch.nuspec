@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+    <metadata>
+        <id>Metrics.NET.ElasticSearch</id>
+        <version>0.4.8-pre</version>
+        <title>Metrics.NET.ElasticSearch</title>
+        <authors>iulian.margarintescu, The Recognos Metrics.NET Team</authors>
+        <owners>Iulian Margarintescu, The Recognos Metrics.NET Team</owners>
+        <licenseUrl>https://github.com/Recognos/Metrics.NET.ElasticSearch/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/Recognos/Metrics.NET.ElasticSearch</projectUrl>
+        <iconUrl>http://www.erata.net/Metrics.NET/metrics_32.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>This library extends Metrics.NET with ElasticSearch reporting capabilities</description>
+        <summary>Metrics.NET ElasticSearch reporter</summary>
+        <copyright>Iulian Margarintescu, The Recognos Metrics.NET Team</copyright>
+        <tags>elastic search, elastic, metrics, measurements, charts, timer, histogram, duration, graphite, health checks</tags>
+        <dependencies>
+          <dependency id="Metrics.NET" version="0.4.8-pre" />
+        </dependencies>
+    </metadata>
+    <files>
+      <file src="lib\net45\Metrics.NET.ElasticSearch.dll" target="lib\net45\Metrics.NET.ElasticSearch.dll" />
+      <file src="lib\net45\Metrics.NET.ElasticSearch.pdb" target="lib\net45\Metrics.NET.ElasticSearch.pdb" />
+      <file src="lib\net45\Metrics.NET.ElasticSearch.XML" target="lib\net45\Metrics.NET.ElasticSearch.XML" />
+    </files>
+</package>

@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metrics.NET.ElasticSearch", "Src\Metrics.NET.ElasticSearch\Metrics.NET.ElasticSearch.csproj", "{E25EE0DA-4358-4CB3-9F3D-9EE91B6A45C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{B56CAA0A-5760-456F-9DDC-8BFEA818B902}"
+	ProjectSection(SolutionItems) = preProject
+		build.bat = build.bat
+		build.sh = build.sh
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Publishing", "Publishing", "{DD9A6248-3C1E-4A5A-99BD-BED937265A4E}"
+	ProjectSection(SolutionItems) = preProject
+		create-nuget.bat = create-nuget.bat
+		Publishing\Metrics.NET.ElasticSearch.nuspec = Publishing\Metrics.NET.ElasticSearch.nuspec
+		Publishing\push-nuget.bat = Publishing\push-nuget.bat
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1DFE1781-62F2-4605-B9D1-9F9BE54C0CB9}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+		SharedAssemblyInfo.cs = SharedAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E25EE0DA-4358-4CB3-9F3D-9EE91B6A45C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E25EE0DA-4358-4CB3-9F3D-9EE91B6A45C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E25EE0DA-4358-4CB3-9F3D-9EE91B6A45C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E25EE0DA-4358-4CB3-9F3D-9EE91B6A45C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
