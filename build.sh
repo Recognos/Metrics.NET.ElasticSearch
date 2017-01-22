@@ -1,4 +1,4 @@
 mono .nuget/NuGet.exe restore Metrics.NET.ElasticSearch.sln 
 
-xbuild Metrics.Sln /p:Configuration="Debug"
-xbuild Metrics.Sln /p:Configuration="Release"
+xbuild Metrics.NET.ElasticSearch.Sln /p:Configuration="Debug"
+xbuild Metrics.NET.ElasticSearch.Sln /p:Configuration="Release"
