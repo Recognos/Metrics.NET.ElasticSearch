@@ -9,5 +9,5 @@ ElasticSearch reporter for [Metrics.NET](https://github.com/Recognos/Metrics.NET
 [Changelog (prerelease)](https://github.com/Recognos/Metrics.NET.ElasticSearch/blob/dev/CHANGELOG.md)
 
 ## License
-This library ( Metrics.NET.ElasticSearch ) is released under Apache 2.0 License ( see LICENSE ) 
-Copyright (c) 2017 Iulian Margarintescu, The Recognos Metrics.NET Team
+This library (Metrics.NET.ElasticSearch) is released under Apache 2.0 License (see LICENSE) 
+Copyright © 2017 Iulian Margarintescu, The Recognos Metrics.NET Team
