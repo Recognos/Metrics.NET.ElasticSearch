@@ -175,3 +175,4 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+/.vs/Metrics.NET.ElasticSearch/v15/Server/sqlite3
