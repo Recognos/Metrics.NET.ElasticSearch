@@ -88,6 +88,11 @@ namespace Metrics.ElasticSearch
 
         protected override void EndReport(string contextName)
         {
+            if (data == null || data.Count == 0)
+            {
+                log.InfoFormat("Skipping upload because data was null or emtpy.");
+                return;
+            }
             base.EndReport(contextName);
             using (var client = new WebClient())
             {
